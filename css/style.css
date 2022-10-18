@@ -35,4 +35,14 @@ body {
   background-size: contain;
 }
 
+#tree {
+  position: absolute;
+  width: 250px;
+  height: 220px;
+  bottom: 190px;
+  left: 50%;
+  background-image: url("../img/graveyardtilesetnew/png/Objects/Tree.png");
+  background-size: contain;
+}
+
 /*# sourceMappingURL=style.css.map */

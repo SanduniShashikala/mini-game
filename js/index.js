@@ -9,9 +9,9 @@ let index = 0;
 
 const draw = ()=>{
     if (dx === 0){
-        player.style.backgroundImage = `url('../img/templerun/Idle__00${index++}.png')`;
+        player.style.backgroundImage = `url('img/templerun/Idle__00${index++}.png')`;
     } else{
-        player.style.backgroundImage = `url('../img/templerun/Run__00${index++}.png')`;
+        player.style.backgroundImage = `url('img/templerun/Run__00${index++}.png')`;
     }
     if(index > 8 && dx !==0){
         index = 0;
